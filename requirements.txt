@@ -1,0 +1,15 @@
+# PDF processing
+PyMuPDF
+
+# Progress bars
+tqdm
+
+# Embeddings & similarity
+sentence-transformers
+
+# Transformers for summarization
+transformers
+torch
+
+# Spell checking
+pyenchant
