@@ -74,7 +74,7 @@ This command tags the image as `pdf-processor`. This process might take a few mi
 Once the image is built, you can run a container. To ensure the output JSON files are saved to your host machine, it's highly recommended to **mount a volume**:
 
 ```bash
-docker run --rm -v "$(pwd)/Challenge_1b:/app/Challenge_1b" pdf-processor
+docker run "$(pwd)/Challenge_1b:/app/Challenge_1b" pdf-processor
 ```
 
   * `--rm`: This flag automatically removes the container after it finishes execution, keeping your system clean.
