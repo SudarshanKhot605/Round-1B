@@ -1,0 +1,82 @@
+{
+  "metadata": {
+    "input_documents": [
+      "Learn Acrobat - Create and Convert_1.pdf",
+      "Learn Acrobat - Create and Convert_2.pdf",
+      "Learn Acrobat - Edit_1.pdf",
+      "Learn Acrobat - Edit_2.pdf",
+      "Learn Acrobat - Export_1.pdf",
+      "Learn Acrobat - Export_2.pdf",
+      "Learn Acrobat - Fill and Sign.pdf",
+      "Learn Acrobat - Generative AI_1.pdf",
+      "Learn Acrobat - Generative AI_2.pdf",
+      "Learn Acrobat - Request e-signatures_1.pdf",
+      "Learn Acrobat - Request e-signatures_2.pdf",
+      "Learn Acrobat - Share_1.pdf",
+      "Learn Acrobat - Share_2.pdf",
+      "Test Your Acrobat Exporting Skills.pdf",
+      "The Ultimate PDF Sharing Checklist.pdf"
+    ],
+    "persona": "HR professional",
+    "job_to_be_done": "Create and manage fillable forms for onboarding and compliance."
+  },
+  "extracted_sections": [
+    {
+      "document": "Learn Acrobat - Fill and Sign.pdf",
+      "section_title": "Fill in interactive forms",
+      "importance_rank": 1,
+      "page_number": 8
+    },
+    {
+      "document": "The Ultimate PDF Sharing Checklist.pdf",
+      "section_title": "\u2022  Add Clients and Stakeholders",
+      "importance_rank": 2,
+      "page_number": 2
+    },
+    {
+      "document": "Learn Acrobat - Request e-signatures_1.pdf",
+      "section_title": "Certifying and signing documents",
+      "importance_rank": 3,
+      "page_number": 23
+    },
+    {
+      "document": "Learn Acrobat - Fill and Sign.pdf",
+      "section_title": "Fill and sign PDF forms",
+      "importance_rank": 4,
+      "page_number": 2
+    },
+    {
+      "document": "Learn Acrobat - Fill and Sign.pdf",
+      "section_title": "Is the form fillable?",
+      "importance_rank": 5,
+      "page_number": 8
+    }
+  ],
+  "subsection_analysis": [
+    {
+      "document": "Learn Acrobat - Fill and Sign.pdf",
+      "refined_text": "Fill in PDF Forms is not fillable. Sometimes form creators don\u2019t convert their PDFs to fillable forms . Or, they intentionally design a form that you can fill in only by hand .",
+      "page_number": 8
+    },
+    {
+      "document": "The Ultimate PDF Sharing Checklist.pdf",
+      "refined_text": "Sharing documents efficiently is crucial for the real estate industry . Here's a tailored checklist to help you manage your PDF sharing needs . Have you launched Acrobat or Acrobat or Acrobat Reader and opened  property listing or contract you need to share?",
+      "page_number": 2
+    },
+    {
+      "document": "Learn Acrobat - Request e-signatures_1.pdf",
+      "refined_text": "Certify (visible signatures) in step 2, use the mouse to drag and draw a rectangle area where you want your signature to appear . If you've selected, Certify (visible signatures) in step 2, use the mouse to drag and draw a rectangle area where you want your signature to appear .",
+      "page_number": 23
+    },
+    {
+      "document": "Learn Acrobat - Fill and Sign.pdf",
+      "refined_text": " Fill & Sign tool automatically detects the fields like text fields, comb fields, checkboxes, and radio buttons . You can add text and other symbols anywhere on the form using the Fill & Sign tool if required . Acrobat also allows you to send your completed forms to others and securely save them in Adobe cloud storage .",
+      "page_number": 2
+    },
+    {
+      "document": "Learn Acrobat - Fill and Sign.pdf",
+      "refined_text": "Fill in PDF Forms is not fillable. Sometimes form creators don\u2019t convert their PDFs to fillable forms . Or, they intentionally design a form that you can fill in only by hand .",
+      "page_number": 8
+    }
+  ]
+}

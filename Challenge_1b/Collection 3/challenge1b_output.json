@@ -1,0 +1,76 @@
+{
+  "metadata": {
+    "input_documents": [
+      "Breakfast Ideas.pdf",
+      "Dinner Ideas - Mains_1.pdf",
+      "Dinner Ideas - Mains_2.pdf",
+      "Dinner Ideas - Mains_3.pdf",
+      "Dinner Ideas - Sides_1.pdf",
+      "Dinner Ideas - Sides_2.pdf",
+      "Dinner Ideas - Sides_3.pdf",
+      "Dinner Ideas - Sides_4.pdf",
+      "Lunch Ideas.pdf"
+    ],
+    "persona": "Food Contractor",
+    "job_to_be_done": "Prepare a vegetarian buffet-style dinner menu for a corporate gathering, including gluten-free items."
+  },
+  "extracted_sections": [
+    {
+      "document": "Dinner Ideas - Mains_3.pdf",
+      "section_title": "Vegetable Lasagna",
+      "importance_rank": 1,
+      "page_number": 8
+    },
+    {
+      "document": "Lunch Ideas.pdf",
+      "section_title": "Veggie and Cheese Quesadilla",
+      "importance_rank": 2,
+      "page_number": 13
+    },
+    {
+      "document": "Lunch Ideas.pdf",
+      "section_title": "Chicken Salad Lettuce Wraps",
+      "importance_rank": 3,
+      "page_number": 4
+    },
+    {
+      "document": "Lunch Ideas.pdf",
+      "section_title": "Chicken and Avocado Salad",
+      "importance_rank": 4,
+      "page_number": 5
+    },
+    {
+      "document": "Lunch Ideas.pdf",
+      "section_title": "Couscous Salad",
+      "importance_rank": 5,
+      "page_number": 12
+    }
+  ],
+  "subsection_analysis": [
+    {
+      "document": "Dinner Ideas - Mains_3.pdf",
+      "refined_text": "Mix barbecue sauce, chicken broth, and brown sugar, and brown sugar, and pour over pork . Cook on low for 8 hours or high for 4 hours until pork shreds easily . Cook on low for 8 hours or high for 4 hours until pork shreds easily .",
+      "page_number": 8
+    },
+    {
+      "document": "Lunch Ideas.pdf",
+      "refined_text": " The Mango and Mango Salad is made from a whole wheat tortilla . The tortilla is made from shredded cheese and shredded cheese . The tortilla is melted into a skillet over medium heat until the cheese is melted .",
+      "page_number": 13
+    },
+    {
+      "document": "Lunch Ideas.pdf",
+      "refined_text": "Caprese Sandwich is made from two slices of bread and cut in half . The sandwich is made from two slices of bread and two slices of lettuce leaves . The sandwich is made from two slices of bread and two slices of lettuce leaves .",
+      "page_number": 4
+    },
+    {
+      "document": "Lunch Ideas.pdf",
+      "refined_text": "Roll up the tortilla tightly and slice in half. Combine the eggs, mayonnaise, Dijon mustard, and celery. Combine the eggs, mayonnaise, Dijon mustard, and celery .",
+      "page_number": 5
+    },
+    {
+      "document": "Lunch Ideas.pdf",
+      "refined_text": "BBQ Chicken Wrap is made from a whole wheat tortilla, shredded chicken breast, shredded chicken breast, shredded cheese, and coleslaw mix . The tortilla is made from the chicken, cheese, and coleslaw mix .",
+      "page_number": 12
+    }
+  ]
+}

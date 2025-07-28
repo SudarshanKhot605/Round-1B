@@ -1,0 +1,74 @@
+{
+  "metadata": {
+    "input_documents": [
+      "South of France - Cities.pdf",
+      "South of France - Cuisine.pdf",
+      "South of France - History.pdf",
+      "South of France - Restaurants and Hotels.pdf",
+      "South of France - Things to Do.pdf",
+      "South of France - Tips and Tricks.pdf",
+      "South of France - Traditions and Culture.pdf"
+    ],
+    "persona": "Travel Planner",
+    "job_to_be_done": "Plan a trip of 4 days for a group of 10 college friends."
+  },
+  "extracted_sections": [
+    {
+      "document": "South of France - Traditions and Culture.pdf",
+      "section_title": "Carnival of Nice",
+      "importance_rank": 1,
+      "page_number": 2
+    },
+    {
+      "document": "South of France - Traditions and Culture.pdf",
+      "section_title": "Pilgrimages",
+      "importance_rank": 2,
+      "page_number": 4
+    },
+    {
+      "document": "South of France - Traditions and Culture.pdf",
+      "section_title": "Transhumance Festivals",
+      "importance_rank": 3,
+      "page_number": 2
+    },
+    {
+      "document": "South of France - Traditions and Culture.pdf",
+      "section_title": "Festivals and Celebrations",
+      "importance_rank": 4,
+      "page_number": 2
+    },
+    {
+      "document": "South of France - Traditions and Culture.pdf",
+      "section_title": "Arts and Crafts",
+      "importance_rank": 5,
+      "page_number": 4
+    }
+  ],
+  "subsection_analysis": [
+    {
+      "document": "South of France - Traditions and Culture.pdf",
+      "refined_text": "Proven\u00e7al language, also known as Occitan, has been a significant part of the cultural identity of the South of France . The region's literary heritage includes famous authors like Marcel Pagnol, whose novels and plays vividly depict Proven\u00e7al life .",
+      "page_number": 2
+    },
+    {
+      "document": "South of France - Traditions and Culture.pdf",
+      "refined_text": " The South of France has a rich tradition of pottery and ceramics, with towns like Vallauris and Biot being renowned for their craftsmanship . The region's pottery often features vibrant colors and intricate designs, reflecting the local landscape and culture .",
+      "page_number": 4
+    },
+    {
+      "document": "South of France - Traditions and Culture.pdf",
+      "refined_text": "Proven\u00e7al language, also known as Occitan, has been a significant part of the cultural identity of the South of France . The region's literary heritage includes famous authors like Marcel Pagnol, whose novels and plays vividly depict Proven\u00e7al life .",
+      "page_number": 2
+    },
+    {
+      "document": "South of France - Traditions and Culture.pdf",
+      "refined_text": "Proven\u00e7al language, also known as Occitan, has been a significant part of the cultural identity of the South of France . The region's literary heritage includes famous authors like Marcel Pagnol, whose novels and plays vividly depict Proven\u00e7al life .",
+      "page_number": 2
+    },
+    {
+      "document": "South of France - Traditions and Culture.pdf",
+      "refined_text": " The South of France has a rich tradition of pottery and ceramics, with towns like Vallauris and Biot being renowned for their craftsmanship . The region's pottery often features vibrant colors and intricate designs, reflecting the local landscape and culture .",
+      "page_number": 4
+    }
+  ]
+}

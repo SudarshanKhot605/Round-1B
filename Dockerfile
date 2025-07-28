@@ -23,24 +23,20 @@ COPY requirements.txt /app/requirements.txt
 # Install Python dependencies from requirements.txt
 # Install 'torch' specifically with CPU support to keep the image size smaller
 # '--no-cache-dir' prevents pip from storing download caches in the image layer
-RUN pip install --no-cache-dir -r requirements.txt \
-    && pip install --no-cache-dir torch --index-url https://download.pytorch.org/whl/cpu
-
+# Install Python dependencies from requirements.txt, but skip torch for now
+RUN pip install --no-cache-dir torch --index-url https://download.pytorch.org/whl/cpu \
+    && pip install --no-cache-dir -r requirements.txt
 # Create the 'models' directory where the pre-trained models will be stored
 RUN mkdir -p models
 
-# Download and save the 'all-mpnet-base-v2' SentenceTransformer model
-# This ensures the model is available locally in 'models/all-mpnet-base-v2' as required by your script
-RUN python -c "from sentence_transformers import SentenceTransformer; model = SentenceTransformer('all-mpnet-base-v2'); model.save_pretrained('models/all-mpnet-base-v2')"
-
 # Download and save the 'distilbart-cnn-6-6' Hugging Face Transformers model and its tokenizer
 # This ensures both are available locally in 'models/distilbart-cnn-6-6' as required by your script
-RUN python -c "from transformers import AutoTokenizer, AutoModelForSeq2SeqLM; \
-    tokenizer = AutoTokenizer.from_pretrained('distilbart-cnn-6-6'); \
-    model = AutoModelForSeq2SeqLM.from_pretrained('distilbart-cnn-6-6'); \
+RUN python -c "from sentence_transformers import SentenceTransformer; model = SentenceTransformer('all-mpnet-base-v2'); model.save_pretrained('models/all-mpnet-base-v2'); \
+    from transformers import AutoTokenizer, AutoModelForSeq2SeqLM; \
+    tokenizer = AutoTokenizer.from_pretrained('sshleifer/distilbart-cnn-6-6'); \
+    model = AutoModelForSeq2SeqLM.from_pretrained('sshleifer/distilbart-cnn-6-6'); \
     tokenizer.save_pretrained('models/distilbart-cnn-6-6'); \
     model.save_pretrained('models/distilbart-cnn-6-6')"
-
 # Copy the rest of your application code into the container
 # This includes your 'main.py' script, 'text_extraction.py', 'structure_analysis.py', and the 'Challenge_1b' directory
 COPY . /app

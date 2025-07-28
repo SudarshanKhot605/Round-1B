@@ -9,7 +9,6 @@ sentence-transformers
 
 # Transformers for summarization
 transformers
-torch
 
 # Spell checking
 pyenchant
