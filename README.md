@@ -56,7 +56,7 @@ Organize your project directory like this:
 └── ...
 ```
 
-**Important**: Make sure your main script is named `main.py` as indicated in the `CMD` instruction of the `Dockerfile`. If it's `pdf_section_extractor.py`, rename it to `main.py` or update the `CMD` in the `Dockerfile`.
+**Important**: Make sure your main script is named `main.py` as indicated in the `CMD` instruction of the `Dockerfile`. 
 
 
 ### Building the Docker Image
